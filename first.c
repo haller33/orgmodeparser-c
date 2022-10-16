@@ -1,7 +1,7 @@
 #define NOBUILD_IMPLEMENTATION
 #include "./include/nobuild.h"
 
-#define CFLAGS "-Wall", "-Wextra", "-std=c11", "-pedantic"
+#define CFLAGS "-Wall", "-Wextra", "-std=c99", "-pedantic"
 
 void build_file(const char *tool)
 {

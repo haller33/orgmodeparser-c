@@ -1,3 +1,3 @@
 #!/bin/sh
 
-make frist && ./first && ./bin/tester
+make first && ./first && ./bin/tester
