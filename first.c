@@ -3,8 +3,8 @@
 
 #define CFLAGS "-Wall", "-Wextra", "-std=c99", "-pedantic"
 
-void build_file(const char *tool)
-{
+void build_file(const char *tool) {
+  
   if (!path_is_dir("bin")) {
     MKDIRS("bin");
   }
@@ -17,12 +17,12 @@ void build_file(const char *tool)
 #endif
 }
 
-void build_src(void)
-{
-    FOREACH_FILE_IN_DIR(tool, "src", {
-        if (ENDS_WITH(tool, ".c")) {
-            build_file(tool);
-        }
+void build_src(void) {
+
+  FOREACH_FILE_IN_DIR(tool, "src", {
+      if (ENDS_WITH(tool, ".c")) {
+	build_file(tool);
+      }
     });
 }
 
