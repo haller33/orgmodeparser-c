@@ -6,11 +6,13 @@ Header Only Org-mode Parser on C, inspired by stb libraries
 
 ** Build
 
+#+begin_src bash
 make first && ./first
+#+end_src
 
 ** Use
 
-just include [[https://github.com/haller33/orgmodeparser-c/blob/master/src/orgmodeparser.h][src/lib/orgmodeparser.h]] on your c/c++ code, then
+just include [[https://github.com/haller33/orgmodeparser-c/blob/master/src/lib/orgmodeparser.h][src/lib/orgmodeparser.h]] on your c/c++ code, then
 
 #+begin_src c
 #include "orgmodeparser.h"
