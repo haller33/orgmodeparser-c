@@ -1,0 +1,33 @@
+#+DRAWERS: MyDrawers TestDrawer
+#+EMPTY_ATTRIBUTE: 
+
+This Org file contains examples for drawers and property drawers.
+
+* headline_1
+  :MyDrawers: 
+  :Monday:   yellow
+  :Tuesday:  green
+  :Wednesday: polka dots
+  Hm, where is the curiously missing Thursday entry?
+  :Friday:   hawaiian trunks
+  :Saturday: party: going commando
+  :Sunday:   
+  Not wearing any drawers on Sunday. It is still a valid drawer entry
+  with an empty value. Drawers can also have entries that are just
+  text, like these three lines.
+  :END:
+  
+* headline_2
+  :NotADrawer:
+  Note: This is a not drawer because it's name is not listed in #+DRAWERS:.
+  :END:
+** headline_2_1  
+   :MyDrawers: 
+   :Monday:   yellow
+   :Tuesday:  green
+   :Wednesday: polka dots
+   :Friday:   hawaiian trunks
+   :Saturday: party, going commando
+   :Sunday:   
+   :END:
+   headline_2_1 has a drawer "MyDrawers", but headline_2 does not.

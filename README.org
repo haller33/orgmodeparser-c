@@ -1,0 +1,10 @@
+* Begin
+
+* OrgModeParser On C
+
+Header Only Org-mode Parser on C, inspired by stb libraries
+
+** Build
+
+make first && ./first
+
