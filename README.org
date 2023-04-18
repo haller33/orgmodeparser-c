@@ -27,6 +27,17 @@ then define the followed flag
 
 done!, now use the [[https://github.com/haller33/orgmodeparser-c/tree/master/demo][demo]] codes, and [[https://github.com/haller33/orgmodeparser-c/blob/master/src/tester.c][test]] for more usage.
 
+** resources / references
+
+https://list.orgmode.org/CA+G3_PNj6Pekqv+tWFkwbD778XhW9WSfx+kjJhjSOREpLHUpRQ@mail.gmail.com/
+
+https://orgmode.org/worg/org-syntax.html
+
+https://list.orgmode.org/CA+G3_PNj6Pekqv+tWFkwbD778XhW9WSfx+kjJhjSOREpLHUpRQ@mail.gmail.com/
+
+https://docs.racket-lang.org/brag/#%28part._.The_language%29
+
+
 ** License
 
 MIT
